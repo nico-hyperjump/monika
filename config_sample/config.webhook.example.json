@@ -1,9 +1,22 @@
 {
   "probes": [
     {
+      "id": "1",
+       "name": "github",
+       "description": "github",
       "requests": [
         {
           "url": "https://github.com"
+        }
+      ]
+    },
+    {
+      "id": "2",
+       "name": "localhost",
+       "description": "localhost",
+      "requests": [
+        {
+          "url": "http://localhost:3000"
         }
       ]
     }
